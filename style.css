@@ -1,0 +1,21 @@
+ul,a{
+    width: 150px;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    background-color: violet;
+    color: black;
+    text-align: center;
+}
+.cities{
+    display: none;
+}
+.nav:hover .cities{
+    display: block;
+}
+.cities li:hover>a{
+    background-color: white;
+}
+.table{
+    visibility: hidden;
+}
